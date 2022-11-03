@@ -5,7 +5,7 @@ import BlogRouter from './routers/BlogRouter.js';
 
 const app = express();
 const PORT = 5000;
-
+const kien = "hihi"
 connectDB();
 
 app.use(cors());
